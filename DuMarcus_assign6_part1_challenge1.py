@@ -48,6 +48,6 @@ y2 = 100
 # compute the distance between the two points above using the distance formula.
 # you may ONLY use the functions above to do this - no math operators are allowed!  
 # your calculation must also be done on a single line.
-distance = 
+distance = sqrt(add(square(sub(x2,x1)),square(sub(y2,y1))))
 
 print (distance) # answer should be 141.4213562373095
