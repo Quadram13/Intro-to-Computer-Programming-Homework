@@ -1,6 +1,7 @@
 """
 digital clock
 """
+import digitalclock
 # function:   horizontal_line
 # input:      a width value (integer) and a single character (string)
 # processing: generates a single horizontal line of the desired size
@@ -118,4 +119,41 @@ def print_number(number,width,char):
         print(number_8(width,char))
     elif number==9:
         print(number_9(width,char))
+
+
+
+def plus(width,char):
+    if width%2!=0:
+        return vertical_line((width//2),2,char)+\
+            horizontal_line(width,char)+\
+            vertical_line(width//2,2,char)
+
+    elif width%2==0:
+        
+        
+        return vertical_line(int(width/2),2,char*2)+\
+            horizontal_line(width,char)+\
+            vertical_line(width/2,2,char*2)
+
+def minus(width,char):
+    return horizontal_line(width,char)
+
+
+
+
+def check_answer(num1,num2,ans,operator):
     
+    if (operator=="+"):
+        if (num1 + num2) == ans:
+            return True
+        else:
+            return False
+        
+    else:
+        if (num1 - num2) == ans:
+            return True
+        else:
+            return False
+
+
+

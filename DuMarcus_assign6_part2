@@ -1,8 +1,0 @@
-"""
-Marcus Du
-2/25/2021
-Section 006
-Part 2
-"""
-import digitalclock
-digitalclock.print_number(9, 14, '*')
