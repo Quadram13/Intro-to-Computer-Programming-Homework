@@ -32,7 +32,7 @@ while allcon==False:
         FLchar=False
     print("* First & last characters are not digits: ",FLchar)
 
-    for i in range (65,90):
+    for i in range (65,91):
         num_cap+=username.count(chr(i))
     if num_cap<1:
         UPchar=False
@@ -40,7 +40,7 @@ while allcon==False:
         UPchar=True
     print("* # of uppercase characters in the username: ",num_cap)
 
-    for i in range (97,122):
+    for i in range (97,123):
         num_low+=username.count(chr(i))
     if num_low<1:
         LOWchar=False
@@ -48,7 +48,7 @@ while allcon==False:
         LOWchar=True
     print("* # of lowercase characters in the username: ",num_low)
 
-    for i in range (48,57):
+    for i in range (48,58):
         num_digits+=username.count(chr(i))
     if num_digits<1:
         NUMchar=False
@@ -91,7 +91,7 @@ while allcon_pw==False:
     else:
         print("* Username is part of password: False")
 
-    for i in range (65,90):
+    for i in range (65,91):
         num_cap+=password.count(chr(i))
     if num_cap<1:
         UPchar_pw=False
@@ -99,7 +99,7 @@ while allcon_pw==False:
         UPchar_pw=True
     print("* # of uppercase characters in the password: ",num_cap)
 
-    for i in range (97,122):
+    for i in range (97,123):
         num_low+=password.count(chr(i))
     if num_low<1:
         LOWchar_pw=False
@@ -107,7 +107,7 @@ while allcon_pw==False:
         LOWchar_pw=True
     print("* # of lowercase characters in the password: ",num_low)
 
-    for i in range (48,57):
+    for i in range (48,58):
         num_digits+=password.count(chr(i))
     if num_digits<1:
         NUMchar_pw=False
@@ -115,7 +115,7 @@ while allcon_pw==False:
         NUMchar_pw=True
     print("* # of digits in the username: ",num_digits)
 
-    for i in range (35,38):
+    for i in range (35,39):
         num_spe+=password.count(chr(i))
     if num_spe<1:
         SPEchar_pw=False
