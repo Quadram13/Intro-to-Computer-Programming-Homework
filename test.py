@@ -1,2 +1,9 @@
-import string
-print(string.ascii_letters)
+"""
+store management system
+
+
+
+
+
+
+"""
