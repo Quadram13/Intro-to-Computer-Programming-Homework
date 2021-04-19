@@ -1,0 +1,9 @@
+"""
+store management system
+
+
+
+
+
+
+"""

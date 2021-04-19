@@ -28,21 +28,21 @@ while allcon==False:
     else:
         FLchar=False
     print("* First & last characters are not digits: ",FLchar)    
-    for i in range (65,90):
+    for i in range (65,91):
         num_cap+=username.count(chr(i))
     if num_cap<1:
         UPchar=False
     else:
         UPchar=True
     print("* # of uppercase characters in the username: ",num_cap)
-    for i in range (97,122):
+    for i in range (97,123):
         num_low+=username.count(chr(i))
     if num_low<1:
         LOWchar=False
     else:
         LOWchar=True
     print("* # of lowercase characters in the username: ",num_low)
-    for i in range (48,57):
+    for i in range (48,58):
         num_digits+=username.count(chr(i))
     if num_digits<1:
         NUMchar=False
