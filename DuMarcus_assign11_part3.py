@@ -103,7 +103,7 @@ class Smartphone:
 choose_size=int(input("Size of your new smartphone (32, 64 or 128 GB): "))
 choose_name=input("Smartphone name: ")
 yourphone=Smartphone(choose_size,choose_name)
-q=False
+q=True
 print()
 while q==False:
     wtd=input("(r)eport, (a)dd app, r(e)move app or (q)uit: ")
